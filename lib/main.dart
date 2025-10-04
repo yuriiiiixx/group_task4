@@ -1,20 +1,28 @@
-import 'package:flutter/material.dart';
+import 'package:abstraction/wind.brilyante.dart';
+
+import 'sanggre.dart';
+import 'fire_brilyante.dart';
 
 void main() {
-  runApp(const MainApp());
-}
+  
+  //Fire Power
+  print('--- Demo: Pirena na may Brilyante ng Apoy ---');
+  var pirena = Sanggre('Pirena', FireBrilyante());
+  pirena.introduce();
+  pirena.summonBrilyante();
+  pirena.attack('Hathoria');
+  pirena.defend('Hathorians');
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+  //Wind Power
+  print('--- Demo: Amihan na may Brilyante ng Hangin ---');
+  var amihan = Sanggre('Amihan', WindBrilyante());
+  amihan.introduce();
+  amihan.summonBrilyante();
+  amihan.attack('Hathoria');
+  amihan.defend('Hathorians');
 
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
+
+
+
+
 }
