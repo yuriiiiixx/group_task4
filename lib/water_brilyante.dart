@@ -9,9 +9,9 @@ class WaterBrilyante implements Brilyante {
   @override
   String cast(String action) {
     if (action.contains('umatake')){
-      return '[Water attack] Nagpaagos ng baha $action';
+      return '[Attack] Nagpaagos ng baha $action';
     } else if (action.contains('dumipensa')) {
-      return '[Water defend] Gumawa ng kalasag na tubig$action';
+      return '[Defense] Gumawa ng kalasag na tubig $action';
     }
       return '[Water] Hindi kilalang aksyon $action';
   }
