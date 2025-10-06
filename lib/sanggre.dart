@@ -1,5 +1,6 @@
 import 'brilyante.dart';
 
+// Consumer class, Sanggre that uses a Brilyante
 class Sanggre {
   final String _name;
   final Brilyante _brilyante;
