@@ -3,16 +3,16 @@ import 'brilyante.dart';
 class FireBrilyante implements Brilyante {
   @override
   String summon() {
-    return '[Fire] Tinawag ang brilyante ng apoy!';
+    return '[Apoy] Tinawag ang brilyante ng apoy!';
   }
 
   @override
   String cast(String action) {
     if (action.contains('umatake')){
-      return '[Fire attack] Nagpaliyab ng apoy $action';
+      return '[Attack] Nagpaliyab ng apoy $action';
     } else if (action.contains('dumipensa')) {
-      return '[Fire defend] Lumalagablab na kalasag na apoy $action';
+      return '[Defense] Lumalagablab na kalasag na apoy $action';
     }
-      return '[Fire] Hindi kilalang aksyon $action';
+      return '[Apoy] Hindi kilalang aksyon $action';
   }
 }
