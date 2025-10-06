@@ -1,6 +1,6 @@
 import 'brilyante.dart';
 
-class FireBrilyante implements Brilyante {
+class WaterBrilyante implements Brilyante {
   @override
   String summon() {
     return '[Water] Tinawag ang brilyante ng tubig!';
