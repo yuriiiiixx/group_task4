@@ -27,4 +27,14 @@ void main() {
   danaya.summonBrilyante();
   danaya.attack('Hathoria');
   danaya.defend('Hathorians');
+
+  //Water Power
+  print('--- Demo: Elena na may Brilyante ng Lupa ---');
+  var elena = Sanggre('Elena', EarthBrilyante());
+  elena.introduce();
+  elena.summonBrilyante();
+  elena.attack('Hathoria');
+  elena.defend('Hathorians');
+
+
 }
