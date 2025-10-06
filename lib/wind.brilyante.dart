@@ -3,7 +3,7 @@ import 'brilyante.dart';
 class WindBrilyante implements Brilyante {
   @override
   String summon(){
-    return '[Wind] Tinawag ang Brilyante ng Hangin!';
+    return '[Hangin] Tinawag ang Brilyante ng Hangin!';
   }
 
   @override
