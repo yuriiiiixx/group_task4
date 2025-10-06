@@ -1,9 +1,8 @@
 import 'sanggre.dart';
 import 'fire_brilyante.dart';
-import 'wind.briyante.dart';
+import 'wind.brilyante.dart';
 
 void main() {
-  
   //Fire Power
   print('--- Demo: Pirena na may Brilyante ng Apoy ---');
   var pirena = Sanggre('Pirena', FireBrilyante());
@@ -19,9 +18,4 @@ void main() {
   amihan.summonBrilyante();
   amihan.attack('Hathoria');
   amihan.defend('Hathorians');
-
-
-
-
-
 }
