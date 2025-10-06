@@ -2,6 +2,7 @@ import 'sanggre.dart';
 import 'fire_brilyante.dart';
 import 'wind.brilyante.dart';
 import 'earth_brilyante.dart';
+import 'water_brilyante.dart';
 
 void main() {
   //Fire Power
