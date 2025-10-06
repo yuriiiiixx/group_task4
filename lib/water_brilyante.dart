@@ -3,7 +3,7 @@ import 'brilyante.dart';
 class WaterBrilyante implements Brilyante {
   @override
   String summon() {
-    return '[Water] Tinawag ang brilyante ng tubig!';
+    return '[Tubig] Tinawag ang brilyante ng tubig!';
   }
 
   @override
@@ -13,6 +13,6 @@ class WaterBrilyante implements Brilyante {
     } else if (action.contains('dumipensa')) {
       return '[Defense] Gumawa ng kalasag na tubig $action';
     }
-      return '[Water] Hindi kilalang aksyon $action';
+      return '[Tubig] Hindi kilalang aksyon $action';
   }
 }
