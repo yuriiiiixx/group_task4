@@ -30,12 +30,11 @@ void main() {
   danaya.defend('Hathorians');
 
   //Water Power
-  print('--- Demo: Elena na may Brilyante ng Lupa ---');
-  var elena = Sanggre('Elena', EarthBrilyante());
-  elena.introduce();
-  elena.summonBrilyante();
-  elena.attack('Hathoria');
-  elena.defend('Hathorians');
-
+  print('--- Demo: Alena na may Brilyante ng Tubig ---');
+  var alena = Sanggre('Alena', WaterBrilyante());
+  alena.introduce();
+  alena.summonBrilyante();
+  alena.attack('Hathoria');
+  alena.defend('Hathorians');
 
 }
